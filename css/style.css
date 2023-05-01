@@ -23,17 +23,18 @@ body{
   box-shadow: 4px 3px 7px rgb(0 0 0 / 30%);
   width: 100%;
   z-index: 1;
-  height: 8vh;
+  height: 9vmin;
 }
 
 .header-wrap__fixed__item__img{
   width: auto;
+  aspect-ratio: 1 / 1;
 }
 
 .header-wrap__fixed__item__img img{
   border-radius: 50%;
   width: auto;
-  height: 70px;
+  height: 60px;
   object-fit: cover;
   object-position: center;
   margin: 1px;
@@ -46,6 +47,7 @@ body{
   text-align: center;
   padding: 0.4%;
   width: auto;
+  height: auto;
   margin-left: 60%;
 }
 
@@ -89,7 +91,7 @@ body{
   background-position: 50%;
   position: relative;
   width: auto;
-  height: 100vh;
+  height: 97vmin;
   z-index: 0;
   padding-bottom: 3%;
 }
@@ -111,7 +113,7 @@ body{
   display: flex;
   align-items: flex-end;
   transform: scale(-1, 1);
-  height: 100%;
+  height: auto;
   width: auto;
 }
 
@@ -121,13 +123,15 @@ body{
   max-height: 1000px;
   flex-basis: auto;
   margin-left: 5%;
-  margin-bottom: 5%;
+  height: 100%;
+  min-height: auto;
 }
 
 .top-wrap__left__img{
   width: 50%;
   aspect-ratio: 1 / 1;
-  margin-bottom: 80%;
+  margin-bottom: 45%;
+  margin-top: 25%;
   margin-left: 25%;
 }
 
@@ -172,7 +176,7 @@ body{
 
 .top-wrap__right {
   width: auto;
-  height: auto;
+  height: 100%;
   text-align: center;
   flex-basis: auto;
 }
@@ -182,20 +186,20 @@ body{
   text-decoration: underline;
   text-underline-offset: 0.1em;
   justify-content: space-evenly;
-  margin-top: 20%;
-  font-size: 4rem;
+  margin-top: 15%;
+  font-size: 3rem;
   color: #fff;
   width: 100%;
-  line-height: 5rem;
+  line-height: 4rem;
 }
 
 .top-wrap__right__mes {
   display: inline-block;
-  margin-top: 6%;
+  margin-top: 3%;
   position: relative;
   background-color: #FFB74B;
   border-radius: 50px;
-  padding: 1.5% 3%;
+  padding: 1.5% 2%;
 }
 
 .top-wrap__right__mes::after {
@@ -210,29 +214,29 @@ body{
 
 .top-wrap__right__mes p {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 200;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
 }
 
 .top-wrap__right__ttl {
-  margin-top: 4.5%;
+  margin-top: 4%;
   margin-left: 15%;
   background-color: #fff;
   border: solid 1px #000;
-  padding: 2%;
+  padding: 1%;
   width: 67%;
 }
 
 .top-wrap__right__ttl h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1;
   font-weight: 100;
   width: 100%;
 }
 
 .top-wrap__right__ttl h1 span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: red;
   padding: 1%;
@@ -245,10 +249,10 @@ body{
 
 .top-wrap__right__con__ttl{
   display: inline-block;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 100;
-  margin: 3%;
-  line-height: 1.5;
+  margin: 2%;
+  line-height: 1.4;
   letter-spacing: 0.3rem;
 }
 
@@ -257,12 +261,12 @@ body{
   border-radius: 10px;
   content: "";
   display: block;
-  height: 10px;
+  height: 8px;
 }
 
 .top-wrap__right__con p{
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.9rem;
   border-bottom: 3px dashed #000;
   letter-spacing: 0.3rem;
   text-align: center;
