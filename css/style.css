@@ -91,9 +91,10 @@ body{
   background-position: 50%;
   position: relative;
   width: auto;
-  height: 97vmin;
+  height: 100vh;
   z-index: 0;
   padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .top::after {
@@ -115,6 +116,7 @@ body{
   transform: scale(-1, 1);
   height: auto;
   width: auto;
+  top: 9vmin;
 }
 
 .top-wrap__left {
@@ -124,14 +126,13 @@ body{
   flex-basis: auto;
   margin-left: 5%;
   height: 100%;
-  min-height: auto;
 }
 
 .top-wrap__left__img{
   width: 50%;
   aspect-ratio: 1 / 1;
   margin-bottom: 45%;
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 25%;
 }
 
